@@ -1,0 +1,33 @@
+n = 41325
+array = []
+
+while n != 0:
+    array.append(n % 10)
+    n //= 10
+
+print(array)
+
+rev = array[::-1]
+print(rev)
+
+
+#######################################
+
+n = 41325
+array = []
+
+while n != 0:
+    array.append(n % 10)
+    n //= 10
+
+print(array)
+
+rev = array[::-1] -> Using List Slicing to Reverse an Array in Python
+print(rev)
+
+for i in range(len(rev)):
+    print('|'+rev[i]*'*')
+
+rev.reverse() -> using reverse() method
+
+print(rev)
